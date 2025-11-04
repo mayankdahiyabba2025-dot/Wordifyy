@@ -1,0 +1,59 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Wordify</title>
+  <link rel="stylesheet" href="{{ url_for('static', filename='style.css') }}">
+</head>
+<body>
+  <header>
+    <div class="logo">🟣 W <span>Wordify</span></div>
+    <p class="tagline">Convert, Combine, and Create Word files effortlessly.</p>
+  </header>
+
+  <main>
+    <section class="card">
+      <h2>Upload & Convert</h2>
+      <input type="file" id="fileInput" multiple>
+      <button id="uploadBtn">Convert</button>
+      <div id="convertedList"></div>
+    </section>
+
+    <section class="card">
+      <h2>Generate QR</h2>
+      <input type="text" id="qrText" placeholder="Enter text or URL">
+      <button id="qrBtn">Generate</button>
+      <div id="qrResult"></div>
+    </section>
+
+    <section class="card">
+      <h2>Combine Files</h2>
+      <div id="combineList"></div>
+      <button id="combineBtn">Combine</button>
+      <div id="downloadLink"></div>
+    </section>
+  </main>
+
+  <footer>@Wordify</footer>
+
+  <script src="{{ url_for('static', filename='script.js') }}"></script>
+</body>
+</html>
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
