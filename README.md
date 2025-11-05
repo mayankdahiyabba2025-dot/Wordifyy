@@ -1,2 +1,2 @@
 # Wordifyy
-Your writing partner — convert, combine, and simplify Word documents with ease.
+A smart web app that converts PDF, PPT, and JPG files to Word format, combines them, and generates QR codes
